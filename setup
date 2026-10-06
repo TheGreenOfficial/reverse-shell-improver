@@ -1,4 +1,0 @@
-#!/bin/bash
-echo "[+] Use: rsi directly"
-cp ./bin/rsi /usr/bin/
-echo "[+] Done.."
