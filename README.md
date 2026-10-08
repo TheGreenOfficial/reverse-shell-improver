@@ -1,5 +1,14 @@
-## rsi - reverse shell improver
+# rsi — reverse shell improver
 
-**Automates what we do after getting a shell like searching for python getting bash shell and exporting TERM xterm and so on..**
+Automates the boring part after catching a reverse shell: pty upgrade via python3/python2/script, TERM and window size fixup, then hands you back a fully interactive TTY.
 
-**Shh one told there not coaded yet.. will do later.. dis workin for now.. haha..**
+Works with any listener — nc, ncat..
+
+## Install
+
+Download the latest binary from releases and drop it in your PATH:
+
+```bash
+chmod +x rsi
+sudo mv rsi /usr/bin/
+```
