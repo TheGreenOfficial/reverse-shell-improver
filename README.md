@@ -1,8 +1,8 @@
-# rsi — reverse shell improver
+## rsi - reverse shell improver
 
 Automates the boring part after catching a reverse shell: pty upgrade via python3/python2/script, TERM and window size fixup, then hands you back a fully interactive TTY.
 
-Works with any listener — nc, ncat..
+Works with any listener - nc, ncat..
 
 ## Install
 
